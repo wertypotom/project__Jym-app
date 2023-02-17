@@ -1,4 +1,4 @@
-import { SelectedPage } from '@/types/types';
+import { SelectedPage } from '@/types/selectedPage';
 import React from 'react';
 import CustomButton from '@/UI/CustomButton/CustomButton';
 import HomePageText from '@/assets/HomePageText.png';
