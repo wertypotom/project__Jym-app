@@ -30,6 +30,7 @@ module.exports = {
           // every time we refer to  "gradient-yellowred" we mean some particular gradient 
           "gradient-yellowred": "linear-gradient(90deg, #FF616A 0%, #FFC837 100%)",
           "mobile-home": "url('./assets/HomePageGraphic.png')",
+          "image-1": "url('./assets/image1.png')",
         }
       },
       fontFamily: {

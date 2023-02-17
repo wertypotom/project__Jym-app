@@ -5,5 +5,6 @@
     "singleAttributePerLine": true,
     "jsxBracketSameLine": false,
     "printWidth": 150,
-    "tabWidth": 4
+    "tabWidth": 4,
+    "arrowParens": "avoid"
 }
