@@ -81,7 +81,7 @@ function Benefits({ setSelectedPage }: Props) {
                     }}
                     variants={container}
                 >
-                    {benefits.map((item) => (
+                    {benefits.map(item => (
                         <BenefitItem
                             key={item.id}
                             {...item}
@@ -114,7 +114,7 @@ function Benefits({ setSelectedPage }: Props) {
                                     }}
                                 >
                                     <HeaderText>
-                                        Milltions of happy members getting <span className="text-primary-500">fit</span>
+                                        Millions of happy members getting <span className="text-primary-500">fit</span>
                                     </HeaderText>
                                 </motion.div>
                             </div>

@@ -4,7 +4,7 @@
     "trailingComma": "all",
     "singleAttributePerLine": true,
     "jsxBracketSameLine": false,
-    "printWidth": 150,
+    "printWidth": 100,
     "tabWidth": 4,
     "arrowParens": "avoid"
 }

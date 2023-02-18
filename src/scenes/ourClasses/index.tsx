@@ -1,13 +1,13 @@
-import { SelectedPage } from '@/types/selectedPage';
 import Image1 from '@/assets/image1.png';
 import Image2 from '@/assets/image2.png';
 import Image3 from '@/assets/image3.png';
 import Image4 from '@/assets/image4.png';
 import Image5 from '@/assets/image5.png';
 import Image6 from '@/assets/image6.png';
-import { motion } from 'framer-motion';
-import HeaderText from '@/UI/HeaderText/HeaderText';
 import { IOurClasses } from '@/types/ourClasses';
+import { SelectedPage } from '@/types/selectedPage';
+import HeaderText from '@/UI/HeaderText/HeaderText';
+import { motion } from 'framer-motion';
 import Class from './Class';
 
 type Props = {
@@ -63,7 +63,7 @@ const OurClasses = ({ setSelectedPage }: Props) => {
     return (
         <section
             id="ourclasses"
-            className="w-full bg-primary-100 py-40"
+            className="w-full bg-primary-100 py-28"
         >
             <motion.div onViewportEnter={() => setSelectedPage(SelectedPage.OurClasses)}>
                 <motion.div
